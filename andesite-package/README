@@ -1,0 +1,2 @@
+andesite-package is a Nix derivation that builds a Debian package containing
+everything that Andesite needs to run.

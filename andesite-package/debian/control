@@ -1,0 +1,6 @@
+Package: andesite
+Version: «VERSION»
+Architecture: amd64
+Priority: optional
+Maintainer: Chloé Kekoa <rightfold+ck@gmail.com>
+Description: Andesite

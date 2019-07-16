@@ -1,0 +1,15 @@
+[Unit]
+After=network.target
+
+[Service]
+
+BindReadOnlyPaths=/usr/lib/andesite/nix-store:/nix/store
+ExecStart=/usr/lib/andesite/bin/andesite --state-dir=/var/lib/andesite
+User=andesite
+
+Restart=always
+StartLimitBurst=3
+StartLimitIntervalSec=180
+
+[Install]
+WantedBy=multi-user.target

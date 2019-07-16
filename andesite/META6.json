@@ -1,0 +1,18 @@
+{
+    "name": "andesite",
+    "provides": {
+        "Andesite::CLI": "lib/Andesite/CLI.pm6",
+        "Andesite::Minecraft::Config": "lib/Andesite/Minecraft/Config.pm6",
+        "Andesite::Minecraft::DataPack": "lib/Andesite/Minecraft/DataPack.pm6",
+        "Andesite::Minecraft::Output": "lib/Andesite/Minecraft/Output.pm6",
+        "Andesite::Minecraft::Server": "lib/Andesite/Minecraft/Server.pm6"
+    },
+    "resources": [
+        "andesite-resources.zip.sha1",
+        "server.jar",
+        "server-icon.png",
+        "pack.mcmeta",
+        "motd.mcfunction",
+        "rules.mcfunction"
+    ]
+}

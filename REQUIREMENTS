@@ -1,0 +1,27 @@
+Backups
+
+Periodically, a backup of the world is made and uploaded to an archive.
+Making the backup is not prone to corruption, requiring temporary disabling
+of automatic world saving.
+
+Bookmarks
+
+A bookmark is a location annotated with a title and notes. Bookmarks allow
+players to plan and locate projects.
+
+Players can issue in-game commands to create and view bookmarks. Viewing a
+bookmark reveals its location in the form of coordinates.
+
+MOTD
+
+When a player joins, they will receive the MOTD. The MOTD is configurable by
+a server administrator. After editing the MOTD it is not necessary to restart
+the server for the changes to take effect.
+
+Rules
+
+When a player first joins, they will receive a written book with the rules in
+their inventory. Players can later craft a copy of this book.
+
+The rules are configurable by a server administrator. After editing the rules
+it is not necessary to restart the server for the changes to take effect.

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+if [[ $1 = configure ]]; then
+    mkdir --parents /var/lib/andesite
+do
